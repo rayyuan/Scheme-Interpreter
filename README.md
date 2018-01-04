@@ -1,2 +1,2 @@
 # Scheme-Interpreter
-Fully functional interpreter for the Scheme programming language.
+Fully functional interpreter for the Scheme programming language. Two mutually recursive parser functions decompose Scheme expressions into internal Python representation of it. The interpreter then follows the Read-Eval-Print cycle. It can evaluate all special forms of Scheme language eg. cond, if, recursion/tail recursion. It also supports local and dynamically scoped expressions. 
